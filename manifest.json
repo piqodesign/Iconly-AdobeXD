@@ -1,0 +1,28 @@
+{
+    "id": "5f7cd88a",
+    "name": "Iconly",
+    "version": "2.0.0",
+    "description": "500+ Free icons for your next project in 5 styles (Light, Bold, Bulk, Two-tone, Broken)\n\n\nWhat's inside:\n— 5 Styles (Light, Bold, Bulk, Two-tone, Broken)\n— Organized library for Figma\n— Fully vector\n— Grid size 24px\n— Pixel Perfect\n— Trendy\n— Easy to use in Figma\n\n\n\nWe hope you guys enjoy using it :star_struck:",
+    "summary": "500+ Free icons for your next project in 5 styles (Light, Bold, Bulk, Two-tone, Broken)",
+    "languages": ["en"],
+    "author": "piqo.design",
+    "helpUrl": "https://piqo.design",
+    "icons": [
+      { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+      { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+      { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+      { "width": 144, "height": 144, "path": "images/icon@4x.png" },
+      { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+    ],
+    "host": {
+      "app": "XD",
+      "minVersion": "21.0"
+    },
+    "uiEntryPoints": [
+        {
+          "type": "menu",
+          "label": "Quick Start - React",
+          "commandId": "main"
+        }
+    ]
+  }

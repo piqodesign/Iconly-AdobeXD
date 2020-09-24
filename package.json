@@ -1,0 +1,38 @@
+{
+  "name": "helllo_react_jsx",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "watch": "nodemon -w src -e js,jsx,css -w webpack.config.js -x yarn build",
+    "build": "webpack --mode development"
+  },
+  "license": "none",
+  "private": true,
+  "devDependencies": {
+    "@svgr/webpack": "^5.4.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "file-loader": "^6.0.0",
+    "nodemon": "^1.18.7",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^0.22.1",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "md5": "^2.2.1",
+    "path-that-svg": "^1.2.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.4.2",
+    "react-html-parser": "^2.0.2",
+    "save": "^2.4.0",
+    "url-loader": "^4.1.0",
+    "yarn": "^1.12.3"
+  }
+}
